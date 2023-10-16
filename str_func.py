@@ -1,7 +1,4 @@
 def converts_to_capital_letters(text):
+    """Функция выведения каждого слова с заглавной буквы"""
     new_text = text.title()
     return new_text
-
-if __name__ == "__main__":
-    text = "мама моет раму."
-    print(converts_to_capital_letters(text))
